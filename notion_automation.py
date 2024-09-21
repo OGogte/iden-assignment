@@ -66,7 +66,7 @@ def capture_sync_record_values(page, users_data):
 def main():
     try:
         with sync_playwright() as playwright_instance:
-            browser = playwright_instance.chromium.launch(headless=False)
+            browser = playwright_instance.chromium.launch()
             page = browser.new_page()
 
             # Step 1: Log in using the login function
