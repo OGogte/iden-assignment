@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Playwright browser cache
+playwright/cache/
+
+# Virtual environment
+env/
+myenv/
+.venv/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Python environment
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Session files
+session.json
+
+# Output files
+final_user_data.json
+
+# Node.js files (if using Playwright CLI with npm)
+node_modules/
+
+# Ignore environment variables (if any)
+.env
